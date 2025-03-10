@@ -1,0 +1,232 @@
+@import "../css/global.css";
+@import "../css/header_footer.css";
+
+/* hero  */
+.hero {
+    padding-top: 91px;
+    padding-bottom: 87px;
+}
+
+.hero_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.hero_text {
+    color: var(--white);
+    opacity: 0.6;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.hero_tit {
+    padding-top: 7px;
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.hero_contact {
+    width: 144px;
+    height: 40px;
+    color: var(--lightGrey);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background: rgb(1, 147, 220);
+}
+
+/* info */
+.info {
+    padding-top: 71px;
+}
+
+.info_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_info_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.info_info_title {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.info_info_subtitle {
+    color: var(--grey);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
+.info_info_watch {
+    color: var(--white);
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 184px;
+    height: 30.81px;
+    border-radius: 4px;
+    border: none;
+    background: var(--primery);
+}
+
+/* about */
+
+.about {
+    padding-top: 120px;
+}
+
+.about_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about_right {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about_hr {
+    background: var(--lightGrey);
+    width: 3px;
+    height: 350px;
+    opacity: 0.5;
+}
+
+.about_title {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+}
+
+.about_text {
+    color: var(--darkGreen);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+.about_onas {
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 184px;
+    height: 30.81px;
+    border-radius: 4px;
+    border: none;
+    background: var(--primery);
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.about_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    border: none;
+    width: 250px;
+    height: 216px;
+}
+
+.about_box_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--white);
+    box-shadow: 1px 6px 5px 0px var(--primery);
+}
+
+.about_numbers {
+    padding-top: 7px;
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.about_texts {
+    color: var(--primery);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+.about_box_subtitle {
+    padding-top: 15px;
+    color: var(--grey);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}

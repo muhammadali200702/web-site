@@ -1,0 +1,22 @@
+<svg width="40.000000" height="39.919678" viewBox="0 0 40 39.9197" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Rectangle 7644" x="5.755798" y="19.554443" width="9.111054" height="13.860220" stroke="#F8C301" stroke-opacity="1.000000" stroke-width="0.813954"/>
+	<rect id="Rectangle 7649" x="8.657166" y="21.348633" width="3.308336" height="3.301689" fill="#60C1F8" fill-opacity="1.000000"/>
+	<rect id="Rectangle 7650" x="8.657166" y="28.135254" width="3.308336" height="3.301689" fill="#60C1F8" fill-opacity="1.000000"/>
+	<mask id="mask_156_865" fill="white">
+		<path id="Union" d="M11.6968 18.2039L19.9738 9.39941L28.2508 18.2039L25.6715 18.2039L25.6715 33.7693L14.2761 33.7693L14.2761 18.2039L11.6968 18.2039Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<path id="Union" d="M11.6968 18.2039L19.9738 9.39941L28.2508 18.2039L25.6715 18.2039L25.6715 33.7693L14.2761 33.7693L14.2761 18.2039L11.6968 18.2039Z" clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_156_865)"/>
+	<path id="Union" d="M26.4855 18.2039L28.2508 18.2039L27.4856 17.3899L20.5324 9.99363L19.9738 9.39941L19.4152 9.99366L12.462 17.3899L11.6968 18.2039L14.2761 18.2039L14.2761 33.7693L25.6715 33.7693L25.6715 18.2039L26.4855 18.2039ZM24.8575 32.9553L24.8575 17.3899L26.3683 17.3899L19.9738 10.5879L13.5793 17.3899L15.0901 17.3899L15.0901 32.9553L24.8575 32.9553Z" clip-rule="evenodd" fill="#F8C301" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<ellipse id="Ellipse 47" cx="20.000000" cy="17.522949" rx="2.034884" ry="2.029978" stroke="#60C1F8" stroke-opacity="1.000000" stroke-width="0.813954"/>
+	<rect id="Rectangle 7645" x="25.290710" y="19.502197" width="9.111054" height="13.860220" stroke="#F8C301" stroke-opacity="1.000000" stroke-width="0.813954"/>
+	<rect id="Rectangle 7647" x="28.192078" y="21.296387" width="3.308336" height="3.301689" fill="#60C1F8" fill-opacity="1.000000"/>
+	<rect id="Rectangle 7648" x="28.192078" y="28.083252" width="3.308336" height="3.301689" fill="#60C1F8" fill-opacity="1.000000"/>
+	<rect id="Rectangle 7651" x="17.244202" y="24.521484" width="5.511628" height="7.935500" stroke="#60C1F8" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<rect id="Rectangle 7652" x="17.244202" y="22.084473" width="5.511628" height="0.624636" stroke="#60C1F8" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<path id="Polygon 3" d="M21.99 6.79L20.06 6.23L20.06 7.34L21.99 6.79Z" fill="#FFBF00" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<rect id="Rectangle 7653" x="19.790039" y="6.150391" rx="0.183796" width="0.367593" height="3.485116" fill="#0C101A" fill-opacity="1.000000"/>
+</svg>

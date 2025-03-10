@@ -1,0 +1,138 @@
+@import "../css/global.css";
+
+/* header  */
+.header {
+    background: url(../images/bg.png) no-repeat top;
+    background-size: cover;
+    padding-top: 17px;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heaedr_pages {
+    color: var(--lightGrey);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+
+
+
+/* footer  */
+.footer {
+    
+    background: var(--white);
+    padding-top: 100px;
+    padding-bottom: 21px;
+}
+
+.footer_wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer_p {
+    padding-top: 27px;
+    text-align: center;
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.footer_p_wrapper p {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.footer_colums {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.footer_colums_title {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+
+.footer_colums_subtitle {
+    color: var(--darkGreen);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.footer_set_wrapper {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer_set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 230, 231);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer_set * {
+    cursor: pointer;
+}
+
+.footer_hr {
+    margin-top: 82px;
+    border: 1px solid var(--lightGrey);
+}
+
+.footer_end_p {
+    padding-top: 28px;
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}

@@ -1,0 +1,197 @@
+@import "../css/global.css";
+@import "../css/header_footer.css";
+
+
+/* hero */
+.hero_title {
+    padding-top: 186px;
+    padding-bottom: 263px;
+    text-align: center;
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+}
+
+/* sucsses */
+
+.sucsses_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sucsses_li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 40px;
+    width: 100%;
+    background: var(--white);
+    position: relative;
+}
+
+.sucsses_title {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.sucsses_subtitle {
+    color: var(--lightGrey);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.sucsses_list {
+    margin-top: 80px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    grid-template-columns: repeat(3, 300px);
+}
+
+.sucsses_img {
+    width: 300px;
+    height: 250px;
+}
+
+.sucsses_position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primery);
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.sucsses_name {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+.search_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.search_title {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.search_suptitle {
+    color: var(--grey);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 372px;
+    padding-top: 10px;
+    height: 49px;
+}
+
+.search_input::placeholder {
+    color: var(--primery);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+#searchInput {
+    box-sizing: border-box;
+    color: var(--primery);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    outline: none;
+    text-transform: capitalize;
+    padding-left: 13px;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--primery);
+    border-radius: 15px;
+    width: 467px;
+    height: 70px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    background: var(--white);
+    position: relative;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal_content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 350px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  #modalImage{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

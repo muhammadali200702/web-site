@@ -1,0 +1,107 @@
+@import "../css/global.css";
+@import "../css/header_footer.css";
+
+.hero_title {
+    padding-top: 186px;
+    padding-bottom: 263px;
+    text-align: center;
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+}
+
+.coment_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.form_container {
+    width: 670.18px;
+    height: 390px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 14px;
+    color: #6c757d;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+#message{
+    height: 200px;
+}
+
+#name{
+    height: 56px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: var(--grey);
+    color: var(--white);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.contact_hr_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact_message_wrapper{
+    overflow-y: scroll;
+    height: 380px;
+}
+
+
+
+.contact_messages_wrappers{
+    width: 538px;
+    border-radius: 2px;
+    background: rgb(243, 243, 243);
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_mrssage_title{
+    color: rgb(58, 78, 80);
+    text-transform: capitalize;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+}
