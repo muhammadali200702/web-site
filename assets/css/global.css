@@ -32,12 +32,11 @@ a {
 
 :root {
     --white: rgb(255, 255, 255);
-    --primery: rgb(43, 167, 226);
-    --dark: rgb(12, 16, 26);
-    --darkGreen: rgb(58, 78, 80);
-    --darkBlue: rgb(16, 21, 36);
+    --siniy: rgb(43, 167, 226);
+    --dark_blue: rgb(12, 16, 26);
+    --grey_dark: rgb(58, 78, 80);
     --grey: rgb(145, 159, 174);
-    --lightGrey: rgb(223, 223, 223);
+    --white_grey: rgb(223, 223, 223);
 
 }
 
